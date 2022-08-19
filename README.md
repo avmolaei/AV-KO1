@@ -12,12 +12,20 @@ Files made by me are under GPLv3 as always
 The body of the AV-KO1 is made to be easily and quickly 3D printed on an average I3 style machine, thanks to it's compact size and simple design. The model has on its left side a small recessed area for a machined aluminium piece with the AVlabs logo on it. A simple extrude operation allow the removal of the aforementionned recessed area if you do not want the AVlabs logo plate : ( 
 Design tool: Autodesk Fusion 360
 Files: AV-KO1.f3D
+
+
+
+
+
 //TODO: recommended print settings and filaments 
 
 # ELECTRONICS & WIRING 
 
 Simplicity  and Frugality are the keywords of the AV-KO1. As such, it is a classic handwiring job with 1N4148 diodes for anti-ghosting, row & collumns; and has a peticular layout: indeed, even though the keyboard is a 5x14 grid, it is actually 2 5x7 keyboards, for ease of wiring. Yes, this implies the use of an internal (or external) USB hub, yes, this implies 2 different firmwares, and no, I really don't care why it's wrong. It's **my** shitty scrappy keeb.
 The MCU (2 of them) I chose was the Arduino Pro Micro. Is it an obsolete, underpowered, beginner choice? Yes. Again, I do what I want.  
+
+
+
 //TODO: add pictures and tutorial of wiring 
 
 # BOM
@@ -51,10 +59,17 @@ As mentionned previously, I don't really like QMK and my workflow relies on EOL/
  - I flash it using AVRdudess, but you can use whatever you want. Identify the port your arduino is on, select the AVR109 Bootloader, and the ATmega 32U4 MCU. Select the .hex file you downloaded a minute ago and program! Your keeb should be flashed. 
  
 Note: for beginners, flashing firmware on the arduino pro might be frustrating. As the pro micro act as a USB HID device, upon power up, it has an 8 second window where you have to reset it in order to be in bootloader mode, so you can upload your code. Past that, and it is just another USB Device. 
+
+
+
+
 Note 2: debugging..... debuggin a keyboard is... surprisingly easy. Most errors will stem from wiring errors (check keys in rows and collumns to detect mistakes faster) or keymap booboos. In this case, go back to kb firmware builder, and modify. Don't forget to always download the full zip sources and json layout from kbfirmwarebuilder, and to have some kind of versionning system. Better safe than sorry. 
 
 
 
 # Final Build
+
+
+
 
 //TODO: actually build the keeb, duh
