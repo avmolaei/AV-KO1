@@ -45,9 +45,9 @@ I know this part is supposed to be called BOM, but don't expect an industry stan
 2 main folders: 	
 
  - KB Layout: the kblayout editor json export. I made both a split and whole version if somehow you want to have a crack at it. In the "whole keeb" folder, there is both a version with 1u keys and 2u keys for the spacebar and enter
- - KB Firmware: 
-		 - left: the sources, compiled .hex, and .json kbfirmwarebuilder export for the left half of the keeb
-		 - right: the sources, compiled.hex, and .json kbfirmwarebuilder export for the right half of the keeb
+ - KB Firmware:   
+		 - left: the sources, compiled .hex, and .json kbfirmwarebuilder export for the left half of the keeb  
+		 - right: the sources, compiled.hex, and .json kbfirmwarebuilder export for the right half of the keeb  
 
 As mentionned previously, I don't really like QMK and my workflow relies on EOL/depreciated solutions. Here is how I do it. 
 
