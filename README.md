@@ -9,7 +9,7 @@ Files made by me are under GPLv3 as always
 
 # CAD & 3D Printing	
 
-The body of the AV-KO1 is made to be easily and quickly 3D printed on an average I3 style machine, thanks to it's compact size and simple design. The model has on its left side a small recessed area for a machined aluminium piece with the AVlabs logo on it. A simple extrude operation allow the removal of the aforementionned recessed area if you do not want the AVlabs logo plate : ( 
+The body of the AV-KO1 is made to be easily and quickly 3D printed on an average I3 style machine, thanks to it's compact size and simple design. The model has on its left side a small recessed area for a machined aluminium piece with the AVlabs logo on it. A simple extrude operation allow the removal of the aforementionned recessed area if you do not want the AVlabs logo plate : (  
 Design tool: Autodesk Fusion 360  
 
 
