@@ -10,8 +10,7 @@ Files made by me are under GPLv3 as always
 # CAD & 3D Printing	
 
 The body of the AV-KO1 is made to be easily and quickly 3D printed on an average I3 style machine, thanks to it's compact size and simple design. The model has on its left side a small recessed area for a machined aluminium piece with the AVlabs logo on it. A simple extrude operation allow the removal of the aforementionned recessed area if you do not want the AVlabs logo plate : ( 
-Design tool: Autodesk Fusion 360
-Files: AV-KO1.f3D
+Design tool: Autodesk Fusion 360  
 
 
 
@@ -22,7 +21,7 @@ Files: AV-KO1.f3D
 # ELECTRONICS & WIRING 
 
 Simplicity  and Frugality are the keywords of the AV-KO1. As such, it is a classic handwiring job with 1N4148 diodes for anti-ghosting, row & collumns; and has a peticular layout: indeed, even though the keyboard is a 5x14 grid, it is actually 2 5x7 keyboards, for ease of wiring. Yes, this implies the use of an internal (or external) USB hub, yes, this implies 2 different firmwares, and no, I really don't care why it's wrong. It's **my** shitty scrappy keeb.
-The MCU (2 of them) I chose was the Arduino Pro Micro. Is it an obsolete, underpowered, beginner choice? Yes. Again, I do what I want.  
+The MCU (2 of them) I chose was the Arduino Pro Micro. Is it an obsolete, underpowered, beginner choice? Yes. Again, I do what I want.    
 
 
 
@@ -56,9 +55,9 @@ As mentionned previously, I don't really like QMK and my workflow relies on EOL/
  - Go to https://kbfirmware.com/ (WARNING: EOL/DEPRECIATED), and copy the layout from kb layout editor in the "Import from keyboard layout editor .com" text field. Click import, and you should see the shape of your keeb in the editor. 
  - From there, you do the magic: set the collumns and rows correctly, set the pins of the MCU, set your keymaps, the different layers, the macros, the RGB LIGHTING BABEHHH. It is QMK based, and as such allows for very powerfull features. In my case, the Layer 0 is a basic character layer, and the layer 1 has the function keys, the arrows, some other additionnal modifiers and calls a bunch of macros I can call later in autohotkey. 
  - Click on Compile, and boom. You've got the firmware file of your keeb. 
- - I flash it using AVRdudess, but you can use whatever you want. Identify the port your arduino is on, select the AVR109 Bootloader, and the ATmega 32U4 MCU. Select the .hex file you downloaded a minute ago and program! Your keeb should be flashed. 
+ - I flash it using AVRdudess, but you can use whatever you want. Identify the port your arduino is on, select the AVR109 Bootloader, and the ATmega 32U4 MCU. Select the .hex file you downloaded a minute ago and program! Your keeb should be flashed.   
  
-Note: for beginners, flashing firmware on the arduino pro might be frustrating. As the pro micro act as a USB HID device, upon power up, it has an 8 second window where you have to reset it in order to be in bootloader mode, so you can upload your code. Past that, and it is just another USB Device. 
+Note: for beginners, flashing firmware on the arduino pro might be frustrating. As the pro micro act as a USB HID device, upon power up, it has an 8 second window where you have to reset it in order to be in bootloader mode, so you can upload your code. Past that, and it is just another USB Device.   
 
 
 
