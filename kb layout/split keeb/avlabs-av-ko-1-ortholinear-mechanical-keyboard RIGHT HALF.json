@@ -1,0 +1,101 @@
+[
+  {
+    "name": "AVlabs AV-KO 1 Ortholinear Mechanical Keyboard",
+    "author": "AVlabs Engineering & Research",
+    "switchMount": "cherry",
+    "switchBrand": "gateron",
+    "switchType": "KS-3-Green",
+    "plate": true
+  },
+  [
+    {
+      "x": 7
+    },
+    "7\nè\n\n`",
+    "8\n_\n\n\\",
+    "9\nç\n\n^",
+    "0\nà\n\n@",
+    "°\n)\n\n]",
+    "+\n=\n\n}",
+    {
+      "a": 5
+    },
+    "¨\n^"
+  ],
+  [
+    {
+      "x": 7,
+      "a": 7
+    },
+    "Fn",
+    {
+      "a": 4
+    },
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P",
+    "£\n$\n\n¤"
+  ],
+  [
+    {
+      "x": 7,
+      "a": 7
+    },
+    "Del",
+    {
+      "a": 4
+    },
+    "H",
+    "J",
+    "K",
+    "L",
+    "M",
+    {
+      "a": 5
+    },
+    "%\nù"
+  ],
+  [
+    {
+      "x": 7,
+      "a": 7
+    },
+    "Enter",
+    {
+      "a": 4
+    },
+    "B",
+    "N",
+    {
+      "a": 5
+    },
+    "?\n,",
+    ".\n;",
+    "/\n:",
+    "§\n!"
+  ],
+  [
+    {
+      "x": 7,
+      "a": 7
+    },
+    "Space",
+    "Space",
+    {
+      "a": 5
+    },
+    "Alt\n\n\n\n\n\nGr",
+    {
+      "a": 7
+    },
+    "Win",
+    "Menu",
+    "Ctrl",
+    {
+      "a": 5
+    },
+    "µ\n*"
+  ]
+]
